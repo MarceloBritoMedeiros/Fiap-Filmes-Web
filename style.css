@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@700&family=Roboto:wght@400;500&display=swap');
+
+:root{
+    --cor-primaria: #f06;
+    --texto: #fff;
+    --bg-padrao: #111;
+    --bg-destaue: #2d2d2d;
+    --font: 'Roboto', san-serif;
+
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: var(--bg-padrao);
+    font-family: var(--font);
+}
+
+header{
+    background-color: var(--bg-destaue);
+}
+
+
+#titulo{
+    color: var(--cor-primaria);
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3rem;
+}
+
+nav li{
+    list-style: none;
+}
+
+a{
+    color: var(--texto);
+    font-size: 1.1rem;
+    text-decoration: none;
+}
+
+#hero span{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.2rem;
+    line-height: 44px;
+    color: var(--texto);
+    text-shadow: 0px 4px 4px var(--bg-padrao);
+
+
+}
+
+
+h2{
+    color: var(--texto);
+    border-left:  var(--cor-primaria) 5px solid;
+    padding-left: 4px ;
+}
+
+.cards{
+    background-color: var(--bg-destaue);
+}
+
+.cards img{
+    border-radius: 10px;
+    width: 120px;
+}
+
+.botao{
+    background-color: var(--cor-primaria);
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+
+.cards p{
+    color: var(--texto)
+}
