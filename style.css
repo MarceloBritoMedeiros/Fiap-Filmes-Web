@@ -51,6 +51,7 @@ a{
     color: var(--texto);
     font-size: 1.1rem;
     text-decoration: none;
+    cursor: pointer;
 }
 
 #hero{
@@ -135,4 +136,10 @@ h2{
 
 .cards .estrela{
     color: gold;
+}
+
+@media (max-width: 425px) {
+    header{
+        flex-direction: column;
+    }
 }
