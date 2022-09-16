@@ -194,6 +194,7 @@ h2{
     margin-left: 1%;    
 }
 
+
 #elenco h2{
     margin-left: 2%;    
 }
@@ -226,37 +227,6 @@ h2{
     height: 110px;
     width: 110px;    
 }
-
-#grupo_integrantes{
-    margin: 10px;
-    display: flex;    
-    justify-content:flex-start;
-}
-
-#integrante{
-    display: flex;    
-    justify-content: center;
-}
-
-#integrante .desc_box{
-    margin-top: 70px;
-    padding-top: 60px;
-    height: auto;
-}
-
-#integrante .titulo_box{
-    margin-top: 0%;
-}
-
-#botoes_redes{
-    display: flex;
-}
-
-#botoes_redes img{
-    height: 30px;
-    padding: 10px;
-}
-
 
 .titulo_box{
     margin-top: 30%;
@@ -312,6 +282,37 @@ h2{
 
 #integrantes_titulo{
     margin: 20px;
+}
+
+
+#grupo_integrantes{
+    margin: 10px;
+    display: flex;    
+    justify-content:flex-start;
+}
+
+#integrante{
+    display: flex;    
+    justify-content: center;
+}
+
+#integrante .desc_box{
+    margin-top: 70px;
+    padding-top: 60px;
+    height: auto;
+}
+
+#integrante .titulo_box{
+    margin-top: 0%;
+}
+
+#botoes_redes{
+    display: flex;
+}
+
+#botoes_redes img{
+    height: 30px;
+    padding: 10px;
 }
 
 @media (max-width: 425px) {
